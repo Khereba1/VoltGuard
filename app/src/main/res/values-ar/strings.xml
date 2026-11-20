@@ -1,0 +1,87 @@
+<resources>
+    <string name="subtitle">مراقب البطارية والعتاد</string>
+
+    <string name="tab_battery">البطارية</string>
+    <string name="tab_system">النظام</string>
+    <string name="tab_network">الشبكة</string>
+
+    <string name="status_bypass">وضع Bypass فعّال</string>
+    <string name="status_charging">جاري الشحن</string>
+    <string name="status_discharging">تفريغ</string>
+    <string name="status_full">ممتلئة</string>
+    <string name="status_not_charging">لا يشحن</string>
+
+    <string name="lbl_current">التيار</string>
+    <string name="lbl_power">القدرة</string>
+    <string name="lbl_voltage">الفولت</string>
+    <string name="lbl_temp">الحرارة</string>
+    <string name="lbl_live_trend">حركة التيار</string>
+
+    <string name="section_root_ctrl">التحكم في الشحن بالروت</string>
+    <string name="lbl_bypass">تجاوز البطارية (Bypass)</string>
+    <string name="desc_bypass">إيقاف شحن البطارية وتشغيل الجهاز من الشاحن</string>
+    <string name="lbl_auto_boot">تفعيل تلقائي مع الإقلاع</string>
+    <string name="desc_auto_boot">إعادة تفعيل الـ Bypass بعد كل Reboot</string>
+    <string name="btn_reboot">إعادة تشغيل</string>
+    <string name="btn_recovery">الريكفري (TWRP)</string>
+    <string name="msg_no_root">لا يوجد روت — التطبيق يعمل بوضع القراءة والمراقبة فقط، وكل قراءات البطارية والعتاد والشبكة تعمل بشكل طبيعي.</string>
+    <string name="msg_no_node">الروت فعّال، لكن لم يتم العثور على مفتاح شحن معروف في كيرنل هذا الجهاز.</string>
+
+    <string name="section_deep_diag">أعلى العمليات والـ WakeLocks</string>
+    <string name="btn_refresh">تحديث</string>
+    <string name="lbl_top_procs">أعلى العمليات استهلاكًا (CPU / RAM)</string>
+    <string name="lbl_wakelocks">الـ WakeLocks النشطة</string>
+    <string name="msg_loading">جاري القراءة…</string>
+    <string name="msg_no_wakelocks">لا توجد WakeLocks نشطة.</string>
+
+    <string name="section_batt_details">تفاصيل البطارية</string>
+    <string name="k_health">الصحة</string>
+    <string name="k_tech">النوع</string>
+    <string name="k_capacity">السعة التصميمية</string>
+    <string name="k_plugged">مصدر الطاقة</string>
+    <string name="plug_ac">شاحن حائط</string>
+    <string name="plug_usb">كابل USB</string>
+    <string name="plug_wireless">لاسلكي</string>
+    <string name="plug_battery">البطارية</string>
+    <string name="health_good">جيدة</string>
+    <string name="health_overheat">سخونة زائدة</string>
+    <string name="health_dead">تالفة</string>
+    <string name="health_overvoltage">فولت مرتفع</string>
+    <string name="health_cold">باردة</string>
+    <string name="health_unknown">غير معروف</string>
+
+    <string name="section_mem_storage">الرام والتخزين</string>
+    <string name="k_ram">الذاكرة العشوائية</string>
+    <string name="k_storage">التخزين الداخلي</string>
+    <string name="section_cpu_cores">أنوية المعالج</string>
+    <string name="k_governor">المنظّم</string>
+    <string name="section_hw_os">العتاد والنظام</string>
+    <string name="k_device">الجهاز</string>
+    <string name="k_arch">المعمارية</string>
+    <string name="k_display">الشاشة</string>
+    <string name="k_os">أندرويد</string>
+    <string name="k_kernel">الكيرنل</string>
+    <string name="k_root">الروت</string>
+    <string name="k_uptime">مدة التشغيل</string>
+    <string name="val_root_yes">متاح</string>
+    <string name="val_root_no">غير متاح</string>
+
+    <string name="section_wifi">الواي فاي النشط</string>
+    <string name="btn_copy_ip">نسخ IP</string>
+    <string name="k_ip">عنوان IP المحلي</string>
+    <string name="k_freq">التردد</string>
+    <string name="k_speed">سرعة الربط</string>
+    <string name="k_signal">قوة الإشارة</string>
+    <string name="section_ifaces">واجهات الشبكة</string>
+    <string name="k_airplane">وضع الطيران</string>
+    <string name="val_on">مفعّل</string>
+    <string name="val_off">مغلق</string>
+    <string name="msg_copied">تم النسخ</string>
+
+    <string name="dlg_reboot_title">إعادة تشغيل الجهاز؟</string>
+    <string name="dlg_reboot_desc">سيتم إعادة تشغيل الجهاز فورًا باستخدام الروت.</string>
+    <string name="dlg_rec_title">الدخول إلى الريكفري؟</string>
+    <string name="dlg_rec_desc">سيتم إعادة التشغيل مباشرة إلى وضع الريكفري (TWRP).</string>
+    <string name="btn_cancel">إلغاء</string>
+    <string name="btn_confirm">تأكيد</string>
+</resources>

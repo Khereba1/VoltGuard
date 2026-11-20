@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name" translatable="false">VoltGuard</string>
+    <string name="footer_version" translatable="false">VoltGuard v1.0.0 • Khereba1</string>
+    <string name="subtitle">Battery &amp; Hardware Monitor</string>
+
+    <string name="tab_battery">Battery</string>
+    <string name="tab_system">System</string>
+    <string name="tab_network">Network</string>
+
+    <string name="status_bypass">Bypass Active</string>
+    <string name="status_charging">Charging</string>
+    <string name="status_discharging">Discharging</string>
+    <string name="status_full">Full</string>
+    <string name="status_not_charging">Not Charging</string>
+
+    <string name="lbl_current">Current</string>
+    <string name="lbl_power">Power</string>
+    <string name="lbl_voltage">Voltage</string>
+    <string name="lbl_temp">Temperature</string>
+    <string name="lbl_live_trend">Live Current</string>
+
+    <string name="section_root_ctrl">Root Charging Control</string>
+    <string name="lbl_bypass">Hardware Bypass</string>
+    <string name="desc_bypass">Pause battery charging and power directly from charger</string>
+    <string name="lbl_auto_boot">Auto-apply on boot</string>
+    <string name="desc_auto_boot">Re-enable bypass automatically after reboot</string>
+    <string name="btn_reboot">Reboot</string>
+    <string name="btn_recovery">Recovery (TWRP)</string>
+    <string name="msg_no_root">Root not detected — running in read-only monitor mode. All battery, hardware, and network sensors work normally.</string>
+    <string name="msg_no_node">Root active, but no known kernel charging switch found on this device.</string>
+
+    <string name="section_deep_diag">Top Processes &amp; WakeLocks</string>
+    <string name="btn_refresh">Refresh</string>
+    <string name="lbl_top_procs">Top CPU / RAM Processes</string>
+    <string name="lbl_wakelocks">Active WakeLocks</string>
+    <string name="msg_loading">Reading…</string>
+    <string name="msg_no_wakelocks">No active wake locks reported.</string>
+
+    <string name="section_batt_details">Battery Details</string>
+    <string name="k_health">Health</string>
+    <string name="k_tech">Technology</string>
+    <string name="k_capacity">Design Capacity</string>
+    <string name="k_plugged">Power Source</string>
+    <string name="plug_ac">AC Adapter</string>
+    <string name="plug_usb">USB</string>
+    <string name="plug_wireless">Wireless</string>
+    <string name="plug_battery">Battery</string>
+    <string name="health_good">Good</string>
+    <string name="health_overheat">Overheat</string>
+    <string name="health_dead">Dead</string>
+    <string name="health_overvoltage">Over Voltage</string>
+    <string name="health_cold">Cold</string>
+    <string name="health_unknown">Unknown</string>
+
+    <string name="section_mem_storage">Memory &amp; Storage</string>
+    <string name="k_ram">RAM</string>
+    <string name="k_storage">Internal Storage</string>
+    <string name="section_cpu_cores">CPU Cores</string>
+    <string name="k_governor">Governor</string>
+    <string name="section_hw_os">Hardware &amp; System</string>
+    <string name="k_device">Device</string>
+    <string name="k_arch">Architecture</string>
+    <string name="k_display">Display</string>
+    <string name="k_os">Android</string>
+    <string name="k_kernel">Kernel</string>
+    <string name="k_root">Root</string>
+    <string name="k_uptime">Uptime</string>
+    <string name="val_root_yes">Granted</string>
+    <string name="val_root_no">None</string>
+
+    <string name="section_wifi">Active Wi-Fi</string>
+    <string name="btn_copy_ip">Copy IP</string>
+    <string name="k_ip">Local IPv4</string>
+    <string name="k_freq">Frequency</string>
+    <string name="k_speed">Link Speed</string>
+    <string name="k_signal">Signal</string>
+    <string name="section_ifaces">Network Interfaces</string>
+    <string name="k_airplane">Airplane Mode</string>
+    <string name="val_on">On</string>
+    <string name="val_off">Off</string>
+    <string name="msg_copied">Copied to clipboard</string>
+
+    <string name="dlg_reboot_title">Reboot device?</string>
+    <string name="dlg_reboot_desc">This will restart the device immediately using root.</string>
+    <string name="dlg_rec_title">Reboot to Recovery?</string>
+    <string name="dlg_rec_desc">This will restart directly into Recovery (TWRP).</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_confirm">Confirm</string>
+</resources>
