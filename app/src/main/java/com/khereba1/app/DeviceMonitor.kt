@@ -88,6 +88,7 @@ object RootShell {
         ChargingNode("Samsung • store_mode", "/sys/class/power_supply/battery/store_mode", "1", "0"),
         ChargingNode("Samsung • batt_slate_mode", "/sys/class/power_supply/battery/batt_slate_mode", "1", "0"),
         ChargingNode("Kernel • input_suspend", "/sys/class/power_supply/battery/input_suspend", "1", "0"),
+        ChargingNode("OPPO • charger_enable", "/sys/class/power_supply/battery/charger_enable", "0", "1"),
         ChargingNode("Kernel • charging_enabled", "/sys/class/power_supply/battery/charging_enabled", "0", "1"),
         ChargingNode("Kernel • battery_charging_enabled", "/sys/class/power_supply/battery/battery_charging_enabled", "0", "1")
     )
